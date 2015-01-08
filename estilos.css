@@ -1,0 +1,42 @@
+body{
+	background-color: yellow;
+}
+
+header{
+	text-align: center;
+	background-color: rgb(122,255,1);
+	padding: 1em 0;
+}
+
+section{
+	float:left;
+  width: 49%;
+  background-color: yellow;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #ededed;
+	padding: 1em 0;
+}
+
+nav{
+	float:left;
+	  width: 24%;
+}
+
+aside{
+	float:left;
+	width: 24%;
+}
+
+video#bgvid {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(darkrai.jpg) no-repeat;
+	background-size: cover;
+}
